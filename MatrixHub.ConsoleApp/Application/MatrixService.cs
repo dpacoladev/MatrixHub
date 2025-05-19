@@ -37,7 +37,7 @@ public static class MatrixService
             {
                 while (true)
                 {
-                    Console.Write($"Enter the element in the position [{row}{column}]: ");
+                    Console.Write($"Enter the element in the position [{row},{column}]: ");
                     var elementString = Console.ReadLine() ?? string.Empty;
 
                     try
